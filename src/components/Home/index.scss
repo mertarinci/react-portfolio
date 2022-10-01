@@ -23,17 +23,7 @@
       height: auto;
       animation: rotateIn 1s linear both;
       animation-delay: 1.4s;
-      animation-fill-mode: none;
-    }
-  }
-
-  .image-animate-hover {
-    opacity: 1;
-    display: inline-block;
-
-    &:hover {
-      opacity: 1;
-      animation: flip 2s;
+      animation-fill-mode: both;
     }
   }
 }
